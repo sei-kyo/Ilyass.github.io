@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/Logo1.png">
+
+    <title>GamerShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&
+    family=Dancing+Script:wght@400;500;600;700&
+    family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f5d632692c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!--PROJECT:site e-commerce
+        Gr:B
+        Nom & prenom:Ilyass Aissaoui , Mohammed Tabibi-->
+
+    <header>
+
+        <Nav id="navbar-header">
+            <div class="container" style="display: flex;
+            justify-content: space-between;align-items: center;">
+                <div  id="inline-nav-element" >
+                <a href="index.html" class="no-decoration-link">
+                    <img src="Images/Logo1.png" alt="Logo" class="brand-logo">
+                    <h1 class="brand-name">GamerShop</h1>
+                </a>
+                </div>
+                <div>
+                <div class="home"id="inline-nav-element">
+                    <a href="index.html" class="no-decoration-link" >Home</a>
+                </div>
+                <div class="nav-element" id="inline-nav-element">
+                    <a href="all-games.html" class="no-decoration-link active" >Shop</a>
+                    <ul id="submenu">
+                        <li style="list-style: none;padding-top: 5px;border-bottom:solid 1px #000 ;"><a href="all-games.html" class="no-decoration-link">Games</a></li>
+                        <li style="list-style: none;"><a href="gift-cards.html" class="no-decoration-link active">GiftCards</a></li>
+                    </ul>
+                </div>
+                <div class="nav-element" id="inline-nav-element">
+                    <a href="about-us.html" class="no-decoration-link" >About</a>
+                </div>
+                <div class="nav-element"id="inline-nav-element">
+                    <a href="mailto:ilyassaissaoui711@gmail.com" class="no-decoration-link" >Contact-us</a>
+                </div>
+                <div class="nav-element"id="inline-nav-element">
+                    <a href="index.html" class="no-decoration-link" >Cart <i class="fa-solid fa-bag-shopping nav-cart-icon"></i></a>
+                </div>
+            </div>
+            </div>
+        </Nav>
+
+        <section class="welcome-4">
+            <div class="container">
+                <div class="welcome-text">
+                <h4 class="text-border">Welcome to</h4>
+                <h1 class="text-border"><span class="text-border"id="brand-name-font">GamerShop</span> Oujda</h1>
+                <h2 class="text-border">The Best Store for games</h2>
+                <p class="text-border">you can buy different gift cards here.</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="container" style="margin-top: 60px;">
+
+        <form style="display: flex;justify-content: space-between;
+        padding-bottom: 20px; border-bottom: 1px solid #454d41; margin-bottom: 20px;">
+            <label for="search-box"><h3 id="green-text">Find the gift card you want</h3></label>
+            <div class="search-box" style="display: inline-block;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="search-box" id="search-box" placeholder="Search gift cards" 
+            style="border: none;background-color: #fafaf9; width:230px;" onkeyup="search()">
+            </div>
+        </form>
+
+        <section class="product-list">
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="steam-20.html"><img src="Images/steam-20.jpg" alt="steam 20$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="steam-20.html" class="no-decoration-link"><h4>steam 20$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>200MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="steam-50.html"><img src="Images/steam-50.jpg" alt="steam 50$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="steam-50.html" class="no-decoration-link"><h4>steam 50$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>500MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="steam-100.html"><img src="Images/steam-100.jpg" alt="steam 100$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="steam-100.html" class="no-decoration-link"><h4>steam 100$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>1000MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="blizzard-20.html"><img src="Images/blizzard-20.jpg" alt="blizzard 20$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="blizzard-20.html" class="no-decoration-link"><h4>blizzard 20$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>200MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="ps-10.html"><img src="Images/ps-10.jpg" alt="playstation 10$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="ps-10.html" class="no-decoration-link"><h4>Playstation 10$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>100MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="ps-100.html"><img src="Images/ps-100.jpg" alt="playstation 100$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="ps-100.html" class="no-decoration-link"><h4>Playstation 100$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>1000MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="xbox-25.html"><img src="Images/xbox-25.jpg" alt="xbox 25$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="xbox-25.html" class="no-decoration-link"><h4>xbox 25$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>250MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+            
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="xbox-50.html"><img src="Images/xbox-50.jpg" alt="xbox 50$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="xbox-50.html" class="no-decoration-link"><h4>xbox 50$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>500MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="lol-10.html"><img src="Images/lol-10.jpg" alt="lol 10$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="lol-10.html" class="no-decoration-link"><h4>League Of Legends 10$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>100MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="lol-25.html"><img src="Images/lol-25.jpg" alt="lol 25$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="lol-25.html" class="no-decoration-link"><h4>League Of Legends 25$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>250MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="lol-50.html"><img src="Images/lol-50.jpg" alt="lol 50$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="lol-50.html" class="no-decoration-link"><h4>League Of Legends 50$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>500MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="valorant-10.html"><img src="Images/valorant-10.webp" alt="Valorant 10$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="valorant-10.html" class="no-decoration-link"><h4>Valorant 10$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>100MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+
+
+            <div class="card-all-games" style="width: 302px;">
+                <div class="card-image">
+                    <a href="valorant-25.html"><img src="Images/valorant-25.jpg" alt="Valorant 25$ gift card cover"></a>
+                </div>
+                <div class="card-content">
+                    <a href="valorant-25.html" class="no-decoration-link"><h4>Valorant 25$ giftcard</h4></a>
+                </div>
+                <div class="card-button">
+                    <p>250MAD</p><button>Buy <i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>
+           
+            
+        </section>
+
+    </main>
+
+
+    <footer>
+        <section class="container">
+            <div  style="display: flex;">
+            <div class="flex-box" style="width: 30%;">
+                <a href="index.html" class="no-decoration-link"style="display: flex;align-items: flex-end;">
+                    <img src="Images/Logo1.png" alt="Logo" class="brand-logo2">
+                    <h1 class="brand-name">GamerShop</h1>
+                </a>
+            </div>
+            <div class="information">
+                <div class="flex-box">
+
+                        <h4 style="font-weight: bold;margin-top: 10px;">Contact</h4>
+                        <p><span id="green-text">Adresse: </span>mexico lazaret,Oujda</p>
+                        <p><span id="green-text">Phone: </span>06 00 00 00 00</p>
+                        <p><span id="green-text">Hours:</span>9:00-20:00 (GMT+1)</p>
+                </div>
+            </div>
+            <div class="about" style="display: inline-block; width: 20%;">
+                <div class="flex-box">
+                    <h4 style="font-weight: bold ; margin-top: 10px;">About</h4>
+                    <a href="about-us.html" class="no-decoration-link"><p style="font-size: 12px;">About us</p></a>
+                    <a href="mailto:ilyassaissaoui711@gmail.com" class="no-decoration-link"><p style="font-size: 12px;">Contact us</p></a>
+                </div>
+            </div>
+            <div>
+                <h4 style="font-weight: bold ; margin-top: 10px;">Secured Payment Gateways</h4>
+                <img class="payment-logo" src="Images/Visa_logo.png" alt="visa logo">
+                <img class="payment-logo" src="Images/MasterCard_Logo.png" alt="master card logo" style="margin-left: 11%;">
+                <img class="payment-logo" src="Images/PayPal-logo.png" alt="Paypal logo" style="margin-left: 11%;">
+            </div>
+        </div>
+        <aside class="credit">
+            <p>&#169;All rights reserved. All trademarks and registered trademarks are the property of their respective owners.</p>
+            <p style="float: right;">WebSite Designed & Created By Ilyass Aissaoui & Mohammed Tabibi</p>
+        </aside>
+        </section>
+        
+    </footer>
+
+
+<script src="search-box.js"></script>
+
+</body>
+</html>
