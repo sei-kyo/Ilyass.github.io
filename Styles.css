@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    width:100vw;
+    height: 100vh;
+    background-color: #fafaf9;
+    font-family:'oswald',Courier, monospace ;
+    font-size: 16px;
+}
+
+body{
+    background-color: #fafaf9;
+}
+
+h1{
+    font-size:50px ;
+    line-height: 64px;
+}
+
+h2{
+    font-size: 44px;
+    line-height: 54px;
+}
+
+h3{
+    font-size: 40px;
+    line-height: 44px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+#navbar-header{
+    position: fixed;
+    width: 100vw;
+    height:70px;
+    background-color: #f2f3f1;
+    border-radius: 0;
+    border:0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 8px #f2f3f1;
+    z-index: 999;
+}
+
+nav>div{
+    display: flex;
+    align-items: center;
+}
+
+.nav-element{
+    padding: 0 12px 0 12px;
+    border-left: #081300 solid 1px;
+}
+
+.no-decoration-link,.no-decoration-link:active,.no-decoration-link:visited{
+    text-decoration: none;
+    color: #081300;
+    font-size: 1.3em;
+}
+
+#inline-nav-element{
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#inline-nav-element a:hover,.nav-cart-icon:hover,#inline-nav-element a.active{
+    color: #f2f3f1;
+    text-shadow:2px 0px 8px #081300;
+}
+
+.brand-logo{
+    width:50px;
+    height: 50px;
+    margin-top: -18px;
+    display: inline-block;
+}
+
+.brand-name{
+    display: inline;
+    font-family: 'Comforter','Dancing Script', cursive;
+    color: #081300;
+    text-shadow: 1px 1px 1px #5e6959;
+    line-height: 35px;
+}
+
+.gg-shopping-cart{
+    display: inline-block;
+}
+
+.home{
+
+    margin-right: 12px;
+}
+
+.welcome{
+    color: #fafaf9;
+    height:700px;
+    padding-top: 105px;
+    background-image: url(Images/welcome.jpg);
+    background-size: cover;
+}
+
+#green-text{
+    color: #454d41 !important;
+}
+
+.welcome-text{
+    width: 40%;
+    position: relative;
+    top: 150px;
+}
+
+main{
+    background-color: #fafaf9;
+}
+
+.swiper{
+    width: 100%;
+    height: 450px !important;
+}
+
+.swiper-wrapper{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 302px !important;
+    height: 380px;
+    background-color: #f2f3f1;
+}
+.card:focus-visible{
+    translate: 1.1;
+}
+.card-image{
+    width: 300px !important;
+    display: inline-block;
+    object-fit: cover;
+    
+}
+.card-image img{
+    width:300px !important;
+    height:300px;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+}
+
+.card-button button{
+    height:33px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #5e6959;
+    border-radius:3px;
+    float:right;
+    margin-right: 10px;
+    border: 1px solid black;
+    font-weight: 500;
+}
+.card-button p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.card-content{
+    margin: 5px 0 0 10px;
+}
+
+.discover-more{
+    position: relative;
+    left: 85%;
+    width: 170px;
+    transition: 0.3s;
+    background-color: #f2f3f1;
+    border-radius: 0 8px 0 8px;
+    padding:0 10px 5px 10px;
+}
+.discover-more:hover{
+    translate: 5px;
+    text-shadow: 0 2px 5px #081300;
+}
+.fa-arrow-right{
+    margin-top: 5px;
+}
+.brand-logo2{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.information{
+    display:inline-block;
+    width: 25%;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+footer{
+    padding-top: 15px;
+    margin-top: 80px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #f2f3f1;
+    border-radius: 0;
+    border:0;
+    box-shadow: 0 -8px 8px #f2f3f1;
+    z-index: 998;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+ footer>h4{
+    font-size: 16px;
+ }
+.payment-logo{
+    width: 60px;
+}
+.credit>p{
+    margin: 0;
+    display: inline;
+
+}
+.credit{
+    margin-top: 20px;
+    font-size:xx-small;
+    font-variant:small-caps;
+    border-top:1px solid #5e6959;
+    border-bottom:1px solid #5e6959;
+    margin-top:4em;
+    margin-bottom: 4em;
+    text-transform:lowercase;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-2{
+    color: #fafaf9;
+    height:700px;
+    padding-top: 105px;
+    background-image: url(Images/welcome-2.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#brand-name-font{
+    font-family: 'Comforter','Dancing Script', cursive !important;
+    font-weight: bold;
+    color: #5e6959;
+}
+
+.text-border{
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+.welcome-3{
+    color: #fafaf9;
+    height:700px;
+    padding-top: 105px;
+    background-image: url(Images/welcome-3.png);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.welcome-4{
+    color: #fafaf9;
+    height:700px;
+    padding-top: 105px;
+    background-image: url(Images/welcome-4.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+
+.search-box{
+    border: 1px solid #081300;
+    border-radius: 12px;
+    height: 35px;
+    width: 300px;
+    padding: 5px 15px 5px 15px;
+}
+
+.card-all-games{
+    width: 302px !important;
+    height: 380px;
+    background-color: #f2f3f1;
+    margin: 15px 15px 15px 15px;
+    border: #454d41 1px solid;
+    border-radius: 7px;
+    background-color: #f2f3f1;
+}
+
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#submenu{
+    top: 50px;
+    padding: 0;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    background-color: #f2f3f1;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 8px 8px 15px #f2f3f1,
+                -8px 8px 15px #f2f3f1;
+}
+#submenu li{
+    margin: 10px 12px 0 12px;
+    padding: 0 12px 10px 12px;
+
+}
+
+.nav-element:hover #submenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.welcome-diablo{
+    color: #fafaf9;
+    width: 100%;
+    height: 700px;
+    padding-top: 70px;
+    background-image: url(Images/welcome-diablo.png);
+    background-size: cover;
+    z-index: -1;
+}
+.game-content{
+    display: flex;
+    width: 100%;
+
+}
